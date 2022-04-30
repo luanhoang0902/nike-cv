@@ -1,0 +1,37 @@
+.product {
+    height: 37.5vw;
+    margin-left: 20px;
+    
+}
+.product:hover p  {
+    display: none;
+}
+.product:hover .product-list {
+    display: block;
+}
+.product img {
+    height: 25vw;
+    width: 25vw;
+    object-fit: cover;
+}
+.product-information {
+    height: 12.5vw  ;
+}
+.product-information div {
+    color: red;
+}
+.product-information p:nth-child(2),
+.product-information p:nth-child(3) {
+    /* opacity: 0.8;
+    z-index: 0; */
+}
+.product-list {
+    height: 50px;
+    display: none;
+}
+.product-list img {
+    height: 35px;
+    width: 35px;
+    margin-top: 10px;
+    margin-right: 5px;
+}

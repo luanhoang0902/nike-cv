@@ -1,0 +1,67 @@
+.listImage {
+    padding: 0 50px;
+}
+.listImage-text {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.ListImage-image {
+    display: flex;
+    margin-bottom: 80px;
+
+    font-size: 22px;
+}
+.ListImage-image img {
+    width: 45.5vw;
+}
+.ListImage-image__one {
+    padding-right: 22px;
+    position: relative;
+}
+.Image-one {
+    position: absolute;
+    left: 40px;
+    bottom: 80px;
+}
+.Image-one div {
+    height: 35px;
+    width: 80px;
+    
+    background-color: #fff;
+
+    border-radius: 35px;
+    
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+}
+.Image-one div:hover {
+    background-color: #908989;
+}
+.ListImage-image__two {
+    position: relative;
+}
+.Image-two {
+    position: absolute;
+    left: 40px;
+    bottom: 80px;
+}
+.Image-two div {
+    height: 35px;
+    width: 80px;
+    
+    background-color:black;
+
+    border-radius: 35px;
+    
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+}
+.Image-two div:hover {
+    background-color: #908989;
+}
+.ListImage-image img:hover {
+    cursor: pointer;
+}

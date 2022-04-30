@@ -1,0 +1,46 @@
+.textBot {
+    padding: 0 50px;
+    padding-bottom: 40px;
+
+    font-size: 18px;
+}
+.textBot-all{
+    display: flex;
+
+    height: 200px;
+    width: 60vw;
+
+    margin: 0 auto;   
+
+    justify-content: space-between;
+    overflow: hidden;
+    transition-property: height;
+    transition-duration: 1s;
+
+    margin-bottom: 20px;
+    /* transition: all 2s ease; */
+}
+.textBot-all:hover {
+    height: 350px;
+}
+.a div {
+    margin-bottom: 10px;
+}
+.a div:last-child {
+    opacity: 0.6;
+}
+.a div:last-child:hover{
+    cursor: pointer;
+}
+.textBot__columnone{
+
+}
+.textBot__columntwo{
+
+}
+.textBot__columnthree{
+
+}
+.textBot__columnfour{
+
+}

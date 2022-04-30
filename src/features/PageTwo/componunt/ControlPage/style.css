@@ -1,0 +1,54 @@
+.control-page {
+    /* position: fixed; */
+    /* top: 60px; */
+    /* left: 50px; */
+    height: 70vw;
+    width: 25vw;
+    background-color: #ffffff;
+    overflow-y: scroll;
+
+    font-size: 18px;
+    font-weight: 400;
+
+    transition: height 2s ease-in;
+
+}
+.control-page::-webkit-scrollbar {
+    width: 10px;
+}
+.control-page::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 5px;
+}
+.box-item {
+    width: 12vw;
+    border-bottom: rgb(222, 221, 221) 1px solid;
+
+    padding-bottom: 30px;
+}
+.box-item .box-control{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 15px 0;
+}
+.box-check {
+    display: flex;
+    align-items: center;
+}
+.box-check div:nth-child(1) {
+    height: 20px;
+    width: 20px;
+
+    border:rgb(175, 173, 173) 1.5px solid;
+    border-radius:5px;
+
+    margin-right: 8px;
+}
+.box-item i{
+    font-size: 28px;
+}
+.box-2 {
+    overflow: hidden;
+    transition: height 2s ease-in;
+}

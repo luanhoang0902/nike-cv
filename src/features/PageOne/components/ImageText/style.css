@@ -1,0 +1,46 @@
+.imageText {
+    padding: 0 50px;
+    width: 100%;
+
+    box-sizing: border-box;
+
+}
+.imageText {
+    cursor: pointer;    
+}
+.imageText-img img{
+    height: 90vh;
+    width: 100%;
+
+    object-fit: cover;
+}
+.imageText-text {
+    width: 60vw;
+
+    margin: 40px auto;
+}
+.imageText-text div {
+    text-align: center;
+}
+.imageText-text b {
+    font-size: 70px;
+    font-weight: 800;
+}
+.imageText-text_box {
+    display: inline-block;
+    height: 35px;
+    width: 80px;
+
+    margin-top: 10px;
+
+    color: #fff;
+    line-height: 35px;
+
+    background-color: black;
+
+    border-radius: 35px;
+}
+.imageText-text_box:hover {
+    cursor: pointer;
+    background-color: rgb(111, 104, 104);
+}
