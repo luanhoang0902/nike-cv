@@ -118,3 +118,79 @@
 .guides__item div {
     padding: 3px 0;
 }
+.sendUsFeedBack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    height: 100vh;
+    width: 100%;
+    
+    background-color: rgba(0,0,0,0.3);
+    backdrop-filter: blur(3px);
+    z-index: 1001;
+    display: none;
+
+
+}
+.sendUsFeedBack-box {
+    display: inline-block;
+    height: 50vh;
+    width: 40vw;
+    background-color: #fff;
+    border-radius: 20px ;
+    padding: 70px 60px;
+
+}
+.sendUsFeedBack-box__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+}
+.sendUsFeedBack-box__top b {
+    font-size: 25px;
+}
+.sendUsFeedBack-box__top div {
+    height: 40px;
+    width: 40px;
+
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+
+    background-color: rgb(228, 228, 228);
+
+    border-radius: 50%;
+}
+.sendUsFeedBack-box__middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 50px;
+    width: 100%;
+
+    padding: 0 8px;
+    border: rgb(228, 228, 228) 2px solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.sendUsFeedBack-box__bottom {
+    position: relative;
+    left: 394px; 
+    
+    height: 40px;
+    width: 100px;
+
+    background-color:rgb(228, 228, 228);
+    border-radius: 20px;
+
+    text-align: center;
+    line-height: 40px;
+
+    margin-top: 30px;
+}

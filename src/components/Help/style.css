@@ -1,0 +1,82 @@
+.help-top {
+    height: 30vh;
+    width: 30vw;
+
+    padding: 40px 0;
+    
+    margin: 0 auto;
+    text-align: center;
+}
+.help-top p {
+    font-size: 35px;
+    font-weight: 400;
+}
+.help-top input[type="text"] {
+    height: 55px;
+    width: 100%;
+
+    padding: 0 10px;;
+    border: rgb(183, 181, 181) 1px solid;
+    border-radius: 5px;
+}
+.help-top i{
+    position: relative;
+    top: -42px;
+    right: -210px;
+    font-size: 30px;
+}
+.help-top span {
+    position: relative;
+    left: -120px;
+    bottom: -35px;
+
+    padding: 0 5px;
+   
+    color: gray;
+
+    background-color: #fff;
+    transition: all 0.4s ease;
+}
+.span-style {
+    font-size: 12px;
+    color: black;
+}
+.help-content {
+    width: 80vw;
+    margin: 0 auto;
+}
+.help-content h5 {
+    font-size: 30px;
+}
+.help-content__one,
+.help-content__three {
+    border-bottom:rgb(183, 181, 181) 1px solid;
+    padding: 10px 0;
+}
+.help-content__two {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.help-content__two-item {
+    width: 25vw;    
+    padding: 20px 0;
+}
+.help-content__two-item div:nth-child(1) {
+    font-size: 18px;
+    padding: 5px 0;
+}   
+.help-content__four {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px 0 50px 0;
+
+    font-size: 16px;
+}
+.help-content__four i {
+    font-size: 60px;
+    padding: 20px 0;
+}
+
+

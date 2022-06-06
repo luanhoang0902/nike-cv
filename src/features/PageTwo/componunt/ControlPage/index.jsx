@@ -68,7 +68,7 @@ function ControlPage(props) {
             <CheckBox props = {array[2]}/>
             <CheckBox props = {array[6]}>
             </CheckBox>
-            <Colour/>
+            
                 {/* <div>
                     <div></div>
                     <div>Purple</div>

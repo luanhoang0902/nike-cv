@@ -1,0 +1,116 @@
+.page-product {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 20px auto;
+
+}
+.page-product__img {
+    width: 61vw;
+}
+.page-product__img img {
+    height: 60vh;
+    width: 30vw;
+    object-fit: cover;
+    padding-right: 1vw;
+    padding-bottom: 1vw;
+}
+.page-product__information {
+    width: 26vw;
+    
+}
+.page-product__information-img {
+    display: flex;
+    justify-content: space-between;
+}
+.page-product__information-img img {
+    width: 6vw;
+    padding: 10px 0;
+}
+.page-product__information-size {
+    display: flex;
+    justify-content: space-between;
+}
+.page-product__information-EU {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.page-product__information-EU div{
+    height: 50px;
+    width: 8vw;
+
+    border: rgb(210, 209, 209) 2px solid;
+    border-radius: 5px;
+    margin: 10px 0;
+
+    line-height:50px;
+    text-align: center;
+}
+.page-product__information-EU div:hover{
+    border-color: black;
+}
+.page-product__information-Bag {
+    height: 60px;
+    width: 100%;
+
+    color: white;
+    background-color: black;
+
+    line-height:60px;
+    text-align: center;
+
+    border-radius: 30px;
+
+    margin:20px 0;
+}
+.page-product__information-Favorite {
+    height: 60px;
+    width: 100%;
+
+    line-height:60px;
+    text-align: center;
+    
+    border:rgb(210, 209, 209) 2px solid;
+    border-radius: 30px;
+}
+.page-product__information-text1 {
+    text-align: center;
+    color:rgb(149, 147, 147);
+
+    padding: 20px 0;
+}
+.page-product__information-star {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom:rgb(231, 230, 230) 2px solid;
+}
+.page-product__information-star i {
+    font-size: 30px;
+}
+.luan{
+    border-top:rgb(231, 230, 230) 2px solid;
+    margin-top: 40px;
+
+}
+.page-product-bottom {
+    width: 90vw;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+}
+.page-product-bottom b {
+    font-size: 25px;
+}
+.page-product-bottom img{
+    height:100vh;
+    width: 90vw;   
+    object-fit: cover;
+}   
+.page-product-bottom div {
+    margin: 0 auto;
+    width: 40vw;
+    padding: 30px 0;
+}

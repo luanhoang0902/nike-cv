@@ -1,0 +1,63 @@
+.listProductControl {
+    margin: 0 auto;
+    width: 92vw;  
+}
+.listProductControl-top {
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 30px;
+}
+.listProductControl-content {
+    margin-right: 1vw;
+}
+.listProductControl-content img {
+    width: 30vw;
+}
+.listProductControl-content i {
+    font-size: 40px;
+}
+.listProductControl-top__control {
+    display: flex;
+}
+.listProductControl-top__control div {
+    height: 50px;
+    width: 50px;
+
+    background-color: rgb(216, 216, 216);
+    border-radius: 50%;
+
+    text-align: center;
+    line-height: 50px;
+
+    margin-left: 10px;
+
+}
+.listProductControl-top__control div:first-child {
+    background-color: rgb(244, 244, 244);
+}
+.listProductControl-top__control div:last-child:hover {
+    background-color: rgb(156, 32, 32);   
+    cursor: pointer;
+}
+.listProductControlAll {
+    display: flex;
+    overflow-x: scroll;
+    margin: 10px 0;
+
+    transition: all 2s ease;
+}
+.listProductControlAll::-webkit-scrollbar {
+    height: 8px;    
+}
+.listProductControlAll::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 5px;
+}
+.next:hover {
+    cursor: pointer;
+    background-color: rgb(169, 169, 169);
+}
+.border {
+    border: blue 2px solid;
+}

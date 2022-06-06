@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import PropTypes from "prop-types";
 
 import "./style.css";
@@ -6,7 +6,9 @@ import "./style.css";
 Footer.propTypes = {};
 
 function Footer(props) {
+  const feedBack = useRef()
   return (
+    <>
     <div className="footer">
       <div className="footer-top">
         <div className="footer-top__left">
@@ -17,7 +19,7 @@ function Footer(props) {
             <br /><br/>
             <b>SIGN UP FOR EMAIL</b>
             <br /><br/>
-            <b>SEND US FEEDBACK</b>
+            <b onClick={() => {feedBack.current.style.display = "flex"}}>SEND US FEEDBACK</b>
           </div>
           <div className="footer-top__contenttwo">
             <b>GET HELP</b>
@@ -88,6 +90,22 @@ function Footer(props) {
         </div>
       </div>
     </div>
+    <div className = "sendUsFeedBack" ref = {feedBack}>
+      <div className = "sendUsFeedBack-box">
+        <div className = "sendUsFeedBack-box__top">
+          <b>Send Us Feedback</b>
+          <div onClick = {()=>{feedBack.current.style.display='none'}}><i class='bx bx-x'></i></div>
+        </div>
+        <p>First, what would you like to tell us about?</p>
+        <div className = "sendUsFeedBack-box__middle">
+          <p>Select an option</p>
+          <i class='bx bxs-chevron-down'></i>
+        </div>
+        <p style = {{fontSize: '14px'}}>We are unable to respond to requests submitted here. If you need assistance with your Nike Product or Services please contact us.</p>
+        <div className = "sendUsFeedBack-box__bottom">Submit</div>
+      </div>
+    </div>
+    </>
   );
 }
 

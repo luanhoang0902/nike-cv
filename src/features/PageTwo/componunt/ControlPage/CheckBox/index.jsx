@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import clsx from 'clsx'
 
 import './style.css'
+import Colour from '../Colour';
 
 CheckBox.propTypes = {
     
@@ -11,7 +12,6 @@ CheckBox.propTypes = {
 
 function CheckBox({props}) {
     const anh = useRef(null)
-    // anh.current.style.transition = 'all 2s ease'
     const handleUp = (event) => {
         let tick = event.target.querySelector('.bx')
         if(tick.classList.contains('bx-chevron-up')){
@@ -24,11 +24,25 @@ function CheckBox({props}) {
             anh.current.style.height='auto'
         } 
     };  
+    // const handleUps = (event) => {
+    //     console.log(event.target)
+    //     let tick = event.target.querySelector('.bx')
+    //     console.log(tick)
+    //     if(tick.classList.contains('bx-chevron-up')){
+    //         tick.classList.remove('bx-chevron-up')
+    //         tick.classList.add('bx-chevron-down')
+    //         anh.current.style.height='50px'
+    //     }else {
+    //         tick.classList.add('bx-chevron-up')
+    //         tick.classList.remove('bx-chevron-down')
+    //         anh.current.style.height='auto'
+    //     } 
+    // }
     return (
         <div>
          {props.name&&
                 (<div className = "box-item box-2" onClick={handleUp} ref = {anh}>
-                <div className = "box-control">{props.name}
+                <div className = "box-control" >{props.name}
                 <i class='bx bx-chevron-up' ></i>
                 </div>
                 {props.item1&&
@@ -51,6 +65,7 @@ function CheckBox({props}) {
                     <div></div>
                     <div>{props.item4}</div>
                 </div>)}
+                {(props.name==="Colour")&&(<Colour/>)}
             </div>)}
         </div>
     );

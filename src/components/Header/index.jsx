@@ -108,7 +108,7 @@ function Header(props) {
         </div>
         <div className="header-top__right">
           <div className = "header-top__right-hello">
-            <p>Hello</p>
+            <p><Link to="/Help">Help</Link></p>
             <div className = "hello">
               <b>Help</b>
               <p>Order Status</p>
@@ -122,7 +122,7 @@ function Header(props) {
             </div>
           </div>
           <div className = "header-top__right-item">Join Us</div>
-          <div className = "header-top__right-item">Sign In</div>
+          <div className = "header-top__right-item"><Link to="/login" style = {{direction: 'none'}}>Sign In</Link></div>
         </div>
       </div>
       <div className="header-middleAll">
@@ -298,7 +298,7 @@ function Header(props) {
                 <i class="bx bx-heart"></i>
               </div>
               <div>
-                <i class="bx bx-briefcase"></i>
+                <Link to="/Bag"><i class="bx bx-briefcase"></i></Link>
               </div>
             </div>
             <div
